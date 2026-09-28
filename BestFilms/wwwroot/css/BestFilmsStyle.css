@@ -1,0 +1,51 @@
+﻿* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.conteiner {
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+h1 {
+    color: azure;
+    margin: 50px;
+}
+
+body {
+    background-color: mediumpurple;
+}
+
+.card img {
+    float:left;
+}
+
+.nameFilm {
+    padding: 15px;
+    background-color: mediumpurple;
+    color: azure;
+}
+
+.filmInfo div {
+    display: inline-block;
+}
+
+.filmInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 15px;
+    box-shadow: 1px 1px 1px 1px;
+    margin-top: 15px;
+}
+
+footer {
+    color: azure;
+}
+

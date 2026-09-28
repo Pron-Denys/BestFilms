@@ -1,0 +1,17 @@
+﻿@model IEnumerable<BestFilms.Film>
+
+<div class="films">
+    @foreach (var film in Model)
+    {
+        <div class="card">
+            <div><img src="~/Poster/@film.Poster" alt="@film.Name" width="400px" /></div>
+            <div class="filmInfo">
+                <p class="nameFilm">@film.Name</p>
+                <p>@film.Genre</p>
+                <p class="yearFilm">@film.Year</p>
+                <p>Режисер: @film.FilmDirector</p>
+                <p>@film.Description</p>
+            </div>
+        </div>
+    }
+</div>
