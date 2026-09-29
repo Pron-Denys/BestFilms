@@ -4,13 +4,13 @@
     @foreach (var film in Model)
     {
         <div class="card">
-            <div><img src="~/Poster/@film.Poster" alt="@film.Name" width="400px" /></div>
+            <div><img src="~/Poster/@film.Poster" width="400px" /></div>
             <div class="filmInfo">
                 <p class="nameFilm">@film.Name</p>
                 <p>@film.Genre</p>
                 <p class="yearFilm">@film.Year</p>
                 <p>Режисер: @film.FilmDirector</p>
-                <p>@film.Description</p>
+                <a asp-action="Details" asp-route-i="@film.Id">Детальніше</a>
             </div>
         </div>
     }

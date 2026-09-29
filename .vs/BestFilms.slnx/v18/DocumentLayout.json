@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\BestFilms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35CA198A-E370-408D-5341-0BC134B68B5E}|BestFilms\\BestFilms.csproj|c:\\users\\user\\source\\repos\\bestfilms\\bestfilms\\wwwroot\\css\\bestfilmsstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{35CA198A-E370-408D-5341-0BC134B68B5E}|BestFilms\\BestFilms.csproj|solutionrelative:bestfilms\\wwwroot\\css\\bestfilmsstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{35CA198A-E370-408D-5341-0BC134B68B5E}|BestFilms\\BestFilms.csproj|c:\\users\\user\\source\\repos\\bestfilms\\bestfilms\\views\\film\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{35CA198A-E370-408D-5341-0BC134B68B5E}|BestFilms\\BestFilms.csproj|solutionrelative:bestfilms\\views\\film\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35CA198A-E370-408D-5341-0BC134B68B5E}|BestFilms\\BestFilms.csproj|c:\\users\\user\\source\\repos\\bestfilms\\bestfilms\\wwwroot\\css\\bestfilmsstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{35CA198A-E370-408D-5341-0BC134B68B5E}|BestFilms\\BestFilms.csproj|solutionrelative:bestfilms\\wwwroot\\css\\bestfilmsstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35CA198A-E370-408D-5341-0BC134B68B5E}|BestFilms\\BestFilms.csproj|c:\\users\\user\\source\\repos\\bestfilms\\bestfilms\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{35CA198A-E370-408D-5341-0BC134B68B5E}|BestFilms\\BestFilms.csproj|solutionrelative:bestfilms\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35CA198A-E370-408D-5341-0BC134B68B5E}|BestFilms\\BestFilms.csproj|c:\\users\\user\\source\\repos\\bestfilms\\bestfilms\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35CA198A-E370-408D-5341-0BC134B68B5E}|BestFilms\\BestFilms.csproj|solutionrelative:bestfilms\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35CA198A-E370-408D-5341-0BC134B68B5E}|BestFilms\\BestFilms.csproj|c:\\users\\user\\source\\repos\\bestfilms\\bestfilms\\views\\film\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35CA198A-E370-408D-5341-0BC134B68B5E}|BestFilms\\BestFilms.csproj|solutionrelative:bestfilms\\views\\film\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35CA198A-E370-408D-5341-0BC134B68B5E}|BestFilms\\BestFilms.csproj|c:\\users\\user\\source\\repos\\bestfilms\\bestfilms\\controllers\\filmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CA198A-E370-408D-5341-0BC134B68B5E}|BestFilms\\BestFilms.csproj|solutionrelative:bestfilms\\controllers\\filmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35CA198A-E370-408D-5341-0BC134B68B5E}|BestFilms\\BestFilms.csproj|c:\\users\\user\\source\\repos\\bestfilms\\bestfilms\\models\\bestfilmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35CA198A-E370-408D-5341-0BC134B68B5E}|BestFilms\\BestFilms.csproj|solutionrelative:bestfilms\\models\\bestfilmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35CA198A-E370-408D-5341-0BC134B68B5E}|BestFilms\\BestFilms.csproj|c:\\users\\user\\source\\repos\\bestfilms\\bestfilms\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CA198A-E370-408D-5341-0BC134B68B5E}|BestFilms\\BestFilms.csproj|solutionrelative:bestfilms\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35CA198A-E370-408D-5341-0BC134B68B5E}|BestFilms\\BestFilms.csproj|c:\\users\\user\\source\\repos\\bestfilms\\bestfilms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{35CA198A-E370-408D-5341-0BC134B68B5E}|BestFilms\\BestFilms.csproj|c:\\users\\user\\source\\repos\\bestfilms\\bestfilms\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{35CA198A-E370-408D-5341-0BC134B68B5E}|BestFilms\\BestFilms.csproj|solutionrelative:bestfilms\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35CA198A-E370-408D-5341-0BC134B68B5E}|BestFilms\\BestFilms.csproj|c:\\users\\user\\source\\repos\\bestfilms\\bestfilms\\controllers\\filmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35CA198A-E370-408D-5341-0BC134B68B5E}|BestFilms\\BestFilms.csproj|solutionrelative:bestfilms\\controllers\\filmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35CA198A-E370-408D-5341-0BC134B68B5E}|BestFilms\\BestFilms.csproj|c:\\users\\user\\source\\repos\\bestfilms\\bestfilms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -46,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,20 +114,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BestFilms\\BestFilms\\Views\\Film\\Details.cshtml",
+              "RelativeDocumentMoniker": "BestFilms\\Views\\Film\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\BestFilms\\BestFilms\\Views\\Film\\Details.cshtml",
+              "RelativeToolTip": "BestFilms\\Views\\Film\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-29T07:10:58.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "BestFilmsStyle.css",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BestFilms\\BestFilms\\wwwroot\\css\\BestFilmsStyle.css",
               "RelativeDocumentMoniker": "BestFilms\\wwwroot\\css\\BestFilmsStyle.css",
               "ToolTip": "C:\\Users\\User\\source\\repos\\BestFilms\\BestFilms\\wwwroot\\css\\BestFilmsStyle.css",
               "RelativeToolTip": "BestFilms\\wwwroot\\css\\BestFilmsStyle.css",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-09-27T20:40:38.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-27T20:40:38.578Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BestFilms\\BestFilms\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "BestFilms\\Views\\_ViewImports.cshtml",
@@ -141,13 +156,13 @@
               "RelativeDocumentMoniker": "BestFilms\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\User\\source\\repos\\BestFilms\\BestFilms\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "BestFilms\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-09-27T17:46:30.385Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BestFilms\\BestFilms\\Views\\Film\\Index.cshtml",
               "RelativeDocumentMoniker": "BestFilms\\Views\\Film\\Index.cshtml",
@@ -155,47 +170,48 @@
               "RelativeToolTip": "BestFilms\\Views\\Film\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-27T17:45:19.023Z"
+              "WhenOpened": "2026-09-27T17:45:19.023Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "FilmController.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BestFilms\\BestFilms\\Controllers\\FilmController.cs",
               "RelativeDocumentMoniker": "BestFilms\\Controllers\\FilmController.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\BestFilms\\BestFilms\\Controllers\\FilmController.cs",
               "RelativeToolTip": "BestFilms\\Controllers\\FilmController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-27T16:14:49.266Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "BestFilmsContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BestFilms\\BestFilms\\Models\\BestFilmsContext.cs",
               "RelativeDocumentMoniker": "BestFilms\\Models\\BestFilmsContext.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\BestFilms\\BestFilms\\Models\\BestFilmsContext.cs",
               "RelativeToolTip": "BestFilms\\Models\\BestFilmsContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-27T16:02:50.407Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Film.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BestFilms\\BestFilms\\Models\\Film.cs",
               "RelativeDocumentMoniker": "BestFilms\\Models\\Film.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\BestFilms\\BestFilms\\Models\\Film.cs",
               "RelativeToolTip": "BestFilms\\Models\\Film.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-27T15:53:31.609Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BestFilms\\BestFilms\\Program.cs",
               "RelativeDocumentMoniker": "BestFilms\\Program.cs",
@@ -207,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BestFilms\\BestFilms\\appsettings.json",
               "RelativeDocumentMoniker": "BestFilms\\appsettings.json",

@@ -1,0 +1,17 @@
+﻿@model BestFilms.Film
+
+<div class="filmDetails">
+    <h2>Інформація про фільм:</h2>
+    <div class="conteinerFilmsDetails">
+        <div>
+            <img src="~/Poster/@Model.Poster" width="400px"/>
+        </div>
+        <div>
+            <p>Назва: @Model.Name</p>
+            <p>Жанр: @Model.Genre</p>
+            <p>Рік: @Model.Year</p>
+            <p>Режисер: @Model.FilmDirector</p>
+            <p>Короткий опис: @Model.Description</p>
+        </div>
+    </div>   
+</div>

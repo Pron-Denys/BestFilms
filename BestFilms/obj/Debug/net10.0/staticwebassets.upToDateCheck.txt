@@ -1,5 +1,7 @@
+wwwroot\css\BestFilmsStyle.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\Image\free-icon-technology-16555969 (2).png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -71,10 +73,7 @@ wwwroot\Poster\Зелена_миля.jpg
 wwwroot\Poster\Золоті_руки.jpg
 wwwroot\Poster\Книжкова_Злодійка.jpeg
 wwwroot\Poster\Лікар_Учень_Авіценни.jpeg
-wwwroot\css\BestFilmsStyle.css
-C:\Users\User\source\repos\BestFilms\BestFilms\wwwroot\css\site.css
-C:\Users\User\source\repos\BestFilms\BestFilms\wwwroot\favicon.ico
-C:\Users\User\source\repos\BestFilms\BestFilms\wwwroot\js\site.js
+C:\Users\User\source\repos\BestFilms\BestFilms\wwwroot\css\BestFilmsStyle.css
 C:\Users\User\source\repos\BestFilms\BestFilms\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\User\source\repos\BestFilms\BestFilms\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 C:\Users\User\source\repos\BestFilms\BestFilms\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -134,4 +133,6 @@ C:\Users\User\source\repos\BestFilms\BestFilms\wwwroot\lib\jquery\dist\jquery.sl
 C:\Users\User\source\repos\BestFilms\BestFilms\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\User\source\repos\BestFilms\BestFilms\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\User\source\repos\BestFilms\BestFilms\wwwroot\lib\jquery\LICENSE.txt
-C:\Users\User\source\repos\BestFilms\BestFilms\wwwroot\css\BestFilmsStyle.css
+C:\Users\User\source\repos\BestFilms\BestFilms\wwwroot\favicon.ico
+C:\Users\User\source\repos\BestFilms\BestFilms\wwwroot\js\site.js
+C:\Users\User\source\repos\BestFilms\BestFilms\wwwroot\css\site.css

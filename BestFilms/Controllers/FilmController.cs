@@ -13,6 +13,12 @@ namespace BestFilms.Controllers
             _db = context;
         }
 
+        public async Task<IActionResult> Details(int? i)
+        {
+            var film = await _db.Films.FirstOrDefaultAsync(film => i == film.Id);
+            return View(film);
+        }
+
         public async Task<IActionResult> Index()
         {
             var films = await _db.Films.ToArrayAsync();
