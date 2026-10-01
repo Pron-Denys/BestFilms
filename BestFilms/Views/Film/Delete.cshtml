@@ -1,0 +1,37 @@
+﻿@model BestFilms.Film
+
+<h2>Ви дійсно бажаєте видалити фільм ?</h2>
+<div class="delete">
+    <img src="~/Poster/@Model.Poster">
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id"/>
+        <div>
+            <table>
+                <tr>
+                    <th>Назва фільму</th>
+                    <td asp-for="Name">@Model.Name</td>                   
+                </tr>
+                <tr>
+                    <th>Жанр</th>
+                    <td asp-for="Genre">@Model.Genre</td>
+                </tr>
+                <tr>
+                    <th>Режисер</th>
+                    <td asp-for="FilmDirector">@Model.FilmDirector</td>
+                </tr>
+                <tr>
+                    <th>Рік</th>
+                    <td asp-for="Year">@Model.Year</td>
+                </tr>
+                <tr>
+                    <th>Короткий опис</th>
+                    <td asp-for="Description">@Model.Description</td>
+                </tr>
+            </table>
+            <div class="buttons">
+                <input type="submit" value="Видалити" />
+                <a asp-action="Index" class="back">Повернутися</a>
+            </div>
+        </div>
+    </form>
+</div>

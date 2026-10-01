@@ -1,5 +1,5 @@
 ﻿* {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .conteiner {
@@ -7,9 +7,16 @@
     margin-left: 400px;
 }
 
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
 header a {
-    color:azure;
-    text-decoration:none;
+    color: azure;
+    text-decoration: none;
     font-size: xx-large;
 }
 
@@ -27,6 +34,162 @@ h1 {
     margin: 50px;
 }
 
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px; /* Відстань між іконкою та текстом */
+    padding: 10px 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.filmDetails .conteinerFilmsDetail .movie-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 380px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.create form div .error, .edit form div .error {
+    color: red;
+}
+
+.delete form .buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+    .delete form .buttons input {
+        background-color: red;
+        color: azure;
+        align-items: center;
+        gap: 8px; /* Відстань між іконкою та текстом */
+        padding: 10px 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .delete form .buttons a {
+        align-items: center;
+        gap: 8px; /* Відстань між іконкою та текстом */
+        padding: 10px 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+.create form .buttons input {
+    background-color: red;
+    color: azure;
+    align-items: center;
+    gap: 8px; /* Відстань між іконкою та текстом */
+    padding: 10px 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+    .create form .buttons a {
+        align-items: center;
+        gap: 8px; /* Відстань між іконкою та текстом */
+        padding: 10px 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+.edit form .buttons input {
+    background-color: red;
+    color: azure;
+    align-items: center;
+    gap: 8px; /* Відстань між іконкою та текстом */
+    padding: 10px 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: blue;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    color: azure;
+}
+
+.edit form .buttons a {
+    align-items: center;
+    gap: 8px; /* Відстань між іконкою та текстом */
+    padding: 10px 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+header .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .create {
+    margin-left: 50px;
+    padding: 10px;
+    color: azure;
+    background-color: green;
+}
+
 .conteinerFilmsDetails {
     display: flex;
     flex-direction: row;
@@ -36,18 +199,89 @@ h1 {
 .filmDetails h2 {
     text-align: center;
     margin-bottom: 20px;
-    color:azure;
+    color: azure;
 }
+
+.filmDetails .conteinerFilmsDetails .movie-card {
+    background-color: azure;
+    border-radius: 10%;
+    padding: 30px;
+}
+
+.filmDetails .conteinerFilmsDetails .image {
+    border-radius: 10%;
+}
+
+.delete {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+  
+
+    .delete div {
+        border-radius: 10%;
+        background-color: azure;
+        padding: 50px;
+    }
+
+.edit form {
+    border-radius: 10%;
+    background-color: azure;
+    padding: 50px;
+}
+
+.edit {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+
 
 body {
     background-color: mediumpurple;
 }
 
+.create {
+    border-radius: 10%;
+    background-color: azure;
+    padding: 80px;
+}
+
 .card img {
-    float:left;
+    float: left;
+}
+
+.filmInfo .btnEdit {
+    background-color: blue;
+}
+
+.filmInfo .btnDelete {
+    background-color: red;
+}
+
+.back {
+    background-color: lightgray;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
 }
 
 .nameFilm {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px; /* Відстань між іконкою та текстом */
+    padding: 10px 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 15px;
     background-color: mediumpurple;
     color: azure;
@@ -75,4 +309,3 @@ body {
 footer {
     color: azure;
 }
-

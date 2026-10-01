@@ -1,0 +1,49 @@
+﻿@model BestFilms.Film
+
+<h2>Редагувати</h2>
+<div class="edit">
+    <img src="~/Poster/@Model.Poster"/>
+    <form asp-action="Edit" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Id"/>
+        <input type="hidden" asp-for="Poster"/>
+        <div>
+            <label asp-for="Name">Назва фільму:</label><br />
+            <input type="text" asp-for="Name" /><br />
+            <span class="error" asp-validation-for="Name"></span>
+        </div>
+        <div>
+            <label asp-for="FilmDirector">Режисер:</label><br />
+            <input type="text" asp-for="FilmDirector" /><br />
+            <span class="error" asp-validation-for="FilmDirector"></span>
+        </div>
+        <div>
+            <label asp-for="Genre">Жанр:</label><br />
+            <input type="text" asp-for="Genre" /><br />
+            <span class="error" asp-validation-for="Genre"></span>
+        </div>
+        <div>
+            <label asp-for="Year">Рік:</label><br />
+            <input type="text" asp-for="Year" /><br />
+            <span asp-validation-for="Year"></span>
+        </div>
+        <div>
+            <label asp-for="Poster">Оберіть постер:</label><br />
+            <input type="file" name="loadPoster"><br />
+            <span class="error" asp-validation-for="Poster"></span>
+        </div>
+        <div>
+            <label asp-for="Description">Короткий опис:</label><br />
+            <textarea asp-for="Description"></textarea><br />
+            <span class="error" asp-validation-for="Description"></span>
+        </div>
+        <div class="buttons">
+            <input type="submit" value="Зберегти" />
+            <a asp-action="Index" class="back">Повернутися</a>
+        </div>
+    </form>
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</div>

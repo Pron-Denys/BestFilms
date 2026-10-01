@@ -10,7 +10,9 @@
                 <p>@film.Genre</p>
                 <p class="yearFilm">@film.Year</p>
                 <p>Режисер: @film.FilmDirector</p>
-                <a asp-action="Details" asp-route-i="@film.Id">Детальніше</a>
+                <a asp-action="Details" asp-route-i="@film.Id" class="btn btnDetails">Детальніше</a>
+                <a asp-action="Edit" asp-route-id="@film.Id" class="btn btnEdit">Редагувати</a>
+                <a asp-action="Delete" asp-route-id="@film.Id" class="btn btnDelete">Видалити</a>
             </div>
         </div>
     }
