@@ -3,6 +3,7 @@
 <h2>Додати новий фільм</h2>
 <div class="create">
     <form asp-action="Create" enctype="multipart/form-data">
+        <div asp-validation-summary="ModelOnly" class="errorSummary"></div>
         <div>
             <label asp-for="Name">Назва фільму:</label><br />
             <input type="text" asp-for="Name" /><br />
@@ -25,20 +26,23 @@
         </div>
         <div>
             <label asp-for="Poster">Оберіть постер:</label><br />
+            <input type="hidden" name="Poster" value="Poster" />
             <input type="file" name="loadPoster" /><br />
             <span class="error" asp-validation-for="Poster"></span>
         </div>
+        <div>
             <label asp-for="Description">Короткий опис:</label><br />
             <textarea asp-for="Description"></textarea><br />
             <span class="error" asp-validation-for="Description"></span>
+        </div>
         <div class="buttons">
-            <input type="submit" value="Зберегти"/>
+            <input type="submit" value="Зберегти" class="btnSave"/>
             <a asp-action="Index" class="back">Повернутися</a>
         </div>
-    </form>
-    @section Scripts {
-        @{
-            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        @section Scripts {
+            @{
+                await Html.RenderPartialAsync("_ValidationScriptsPartial");
+            }
         }
-    }
+    </form>
 </div>

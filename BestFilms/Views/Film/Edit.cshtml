@@ -6,6 +6,7 @@
     <form asp-action="Edit" enctype="multipart/form-data">
         <input type="hidden" asp-for="Id"/>
         <input type="hidden" asp-for="Poster"/>
+        <div asp-validation-summary="ModelOnly" class="errorSummary"></div>
         <div>
             <label asp-for="Name">Назва фільму:</label><br />
             <input type="text" asp-for="Name" /><br />
@@ -24,7 +25,7 @@
         <div>
             <label asp-for="Year">Рік:</label><br />
             <input type="text" asp-for="Year" /><br />
-            <span asp-validation-for="Year"></span>
+            <span class="error" asp-validation-for="Year"></span>
         </div>
         <div>
             <label asp-for="Poster">Оберіть постер:</label><br />
@@ -40,10 +41,10 @@
             <input type="submit" value="Зберегти" />
             <a asp-action="Index" class="back">Повернутися</a>
         </div>
-    </form>
-    @section Scripts {
-        @{
-            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        @section Scripts {
+            @{
+                await Html.RenderPartialAsync("_ValidationScriptsPartial");
+            }
         }
-    }
+    </form>
 </div>

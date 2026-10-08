@@ -12,8 +12,12 @@ namespace BestFilms.Controllers
         [RequestSizeLimit(1_000_000_000)]
         public async Task<IActionResult> Create([Bind("Id, Name, FilmDirector, Genre, Description, Year")] Film film, IFormFile? loadPoster)
         {
-            film.Poster = loadPoster?.FileName;
-            if (film.Name is null || film.FilmDirector is null || film.Genre is null || film.Description is null || film.Year <= 0 || loadPoster is null) return View(film);
+            if (loadPoster == null)
+            {
+                ModelState.AddModelError("Poster", "Оберіть постер");
+            }
+            if (!ModelState.IsValid || loadPoster is null) return View(film);
+            if (film.Description!.Length < 10 || film.Description!.Length > 1000) return View(film);
             var absolutePath = Path.Combine(appEnviroment.WebRootPath, "Poster", loadPoster.FileName);
             FileStream stream = new FileStream(absolutePath, FileMode.Create);
             await loadPoster?.CopyToAsync(stream)!;
@@ -47,7 +51,7 @@ namespace BestFilms.Controllers
         [RequestSizeLimit(1_000_000_000)]
         public async Task<IActionResult> Edit(int? id, [Bind("Id, Name, FilmDirector, Genre, Poster, Description, Year")] Film film, IFormFile? loadPoster)
         {
-            if (id == film.Id && film.Name is not null && film.FilmDirector is not null && film.Genre is not null && film.Description is not null && film.Year > 0)
+            if (ModelState.IsValid)
             {
                 if (loadPoster is not null)
                 {
